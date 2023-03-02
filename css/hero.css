@@ -1,25 +1,50 @@
+@font-face{
+	font-family: eurobeat;
+	src: local(eurobeat), url(http://www.eurobeat-prime.com/media/eurobeat.ttf)
+}
+
 body{
 	margin: 0;
-	font-family: lato, sans-serif;
+	font-family: lato, serif;
+}
+
+h1, h2, h3{
+	font-family: eurobeat;
+	font-weight: normal
+}
+
+body h2{
+	font-size: 35px;
+}
+
+body h3{
+	font-size: 30px;
+}
+
+body p{
+	font-size: 25px;
+}
+
+.topbox{
+	background-color: #2d3238;
 }
 
 nav{
 	overflow: auto;
-	background-color: #2ba0c7;
+	padding: 20px;
 }
 
 nav > div{
 	float: left;
-	padding: 10px;
-	padding-top: 2px;
-	font-weight: bold;
-	font-size: 20px;
 	text-align: left;
+	color: white;
 }
 
-nav > div > p{
+nav > div > h3{
+	font-size: 25px;
 	margin: 0px;
 }
+
 
 nav > div > a > img{
 	border-radius: 8px;
@@ -27,17 +52,22 @@ nav > div > a > img{
 
 nav > div + div{
 	float: right;
-	padding: 10px;
 }
 
 header{
-	background-color: #2ba0c7;
 	text-align: center;
 	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header h1{
+	color: white;
+	margin-bottom: 20.2px;
 }
 
 .workplz{
-	background: #212428;
+	background: #191b1d;
     border-radius: 50px;
 	width: 350px;
 	height: 350px;
@@ -52,11 +82,11 @@ header{
 
 main h2{
 	text-align: center;
-	font-size: 30px;
 }
 
 .about{
 	padding: 20px;
+	overflow: auto;
 }
 
 .about_pic{
@@ -64,6 +94,29 @@ main h2{
 	padding-right: 20px;
 }
 
+.stats{
+	overflow: auto;
+}
+
+.stats > p{
+	font-size: 15px;
+	margin: 0px;
+	width: fit-content;
+	float: left;
+}
+
+.stats > p + p{
+	float: right;
+}
+
 .car{
-	clear: both;
+	padding: 20px;
+}
+
+.fandf{
+	padding: 20px;
+}
+
+.battles{
+	padding: 20px;
 }
