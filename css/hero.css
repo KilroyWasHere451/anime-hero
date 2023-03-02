@@ -32,7 +32,7 @@ a{
 p.caption{
 	color: #acb3bb;
 	font-style: italic;
-	margin-top: 0;
+	margin: 0;
 }
 
 img{
@@ -126,6 +126,8 @@ main h2{
 	background-color: #2d3238;
 	border-radius: 50px;
 	margin-right: 20px;
+	margin-top: 56px;
+	margin-bottom: 30px;
 }
 
 .about_pic > img{
@@ -146,6 +148,59 @@ main h2{
 
 .stats > p + p{
 	float: right;
+}
+
+
+.car{
+	overflow: auto;
+}
+
+.car > div{
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.fentry{
+	overflow: auto;
+	margin-bottom: 60px;
+}
+
+.fentry h3{
+	margin-left: 20px;
+}
+
+.fentry img{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	border-radius: 20px;
+}
+
+.container{
+	height: 520px;
+}
+
+.container > p + p{
+	float: right;
+}
+
+.float_bottom{
+	height: 100%;
+	width: 447px;
+	position: relative;
+}
+
+.float_right{
+	float: right;
+	shape-outside: polygon(100% 100%, /* bottom right point */ calc(100% - 470px) 100%, /* 100px from right edge */ calc(100% - 470px) calc(100% - 358px));
+}
+
+.img1{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	margin: 0;
 }
 
 
