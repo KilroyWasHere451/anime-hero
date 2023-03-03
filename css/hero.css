@@ -208,6 +208,27 @@ main h2{
 
 
 
+.battles div{
+	overflow: auto;
+	margin-bottom: 60px;
+}
+
+.battles div h3{
+	margin-left: 20px;
+}
+
+.battles img{
+	float: right;
+	width: 250px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
 footer{
 	background-color: #191b1d;
 	color: white;
