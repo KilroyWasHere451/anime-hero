@@ -61,7 +61,20 @@ nav > div > h3{
 	margin: 0px;
 }
 
-nav > div > a > img{
+.lazyfluf{
+	width: fit-content;
+	padding: 8px;
+	border-radius: 8px;
+	background-color: #2d3238;
+	height: 76px;
+}
+
+.lazyfluf > a{
+	display: block;
+	height: 0px;
+}
+
+.lazyfluf > a > img{
 	border-radius: 8px;
 }
 
